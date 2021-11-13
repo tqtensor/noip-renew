@@ -99,6 +99,5 @@ ENV/
 
 # mypy
 .mypy_cache/
-debug1.png
-debug2.png
-results.png
+*.png
+.vscode/launch.json
