@@ -58,7 +58,7 @@ function install_debian(){
         $SUDO apt -y install chromium-driver || \
         $SUDO apt -y install chromedriver
 
-        $SUDO apt -y install cron 
+        $SUDO apt -y install cron
 
         PYV=`python3 -c "import sys;t='{v[0]}{v[1]}'.format(v=list(sys.version_info[:2]));sys.stdout.write(t)";`
         if [[ "$PYV" -lt "36" ]] || ! hash python3;
